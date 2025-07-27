@@ -53,6 +53,9 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "compile": [
+            "@php artisan optimize -e config"
         ]
     },
     "extra": {
